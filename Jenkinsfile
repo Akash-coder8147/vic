@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Git clone') {
             steps {
-                git branch: 'master', url: 'https://github.com/Akash-coder8147/Amazon'
+                git branch: 'master', url: 'https://github.com/Akash-coder8147/vic'
             }
         }
 
